@@ -1,0 +1,106 @@
+[2020-11-23 07:07:12] local.ERROR: Illegal offset type in unset {"exception":"[object] (ErrorException(code: 0): Illegal offset type in unset at C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:1198)
+[stacktrace]
+#0 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1198): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Illegal offset ...', 'C:\\\\Users\\\\Alinem...', 1198, Array)
+#1 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(224): Illuminate\\Container\\Container->dropStaleInstances(Object(Closure))
+#2 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\app\\Providers\\AppServiceProvider.php(19): Illuminate\\Container\\Container->bind(Object(Closure))
+#3 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(627): App\\Providers\\AppServiceProvider->register()
+#4 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(App\\Providers\\AppServiceProvider))
+#5 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(604): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(230): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#11 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#12 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\server.php(21): require_once('C:\\\\Users\\\\Alinem...')
+#13 {main}
+"} 
+[2020-11-23 07:07:23] local.ERROR: Illegal offset type in unset {"exception":"[object] (ErrorException(code: 0): Illegal offset type in unset at C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:1198)
+[stacktrace]
+#0 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1198): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Illegal offset ...', 'C:\\\\Users\\\\Alinem...', 1198, Array)
+#1 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(224): Illuminate\\Container\\Container->dropStaleInstances(Object(Closure))
+#2 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\app\\Providers\\AppServiceProvider.php(19): Illuminate\\Container\\Container->bind(Object(Closure))
+#3 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(627): App\\Providers\\AppServiceProvider->register()
+#4 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(App\\Providers\\AppServiceProvider))
+#5 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(604): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(230): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#11 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#12 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\server.php(21): require_once('C:\\\\Users\\\\Alinem...')
+#13 {main}
+"} 
+[2020-11-23 07:12:04] local.ERROR: Call to undefined method App\Routing\customResourceRegistrar::addResourceDetails() {"exception":"[object] (Error(code: 0): Call to undefined method App\\Routing\\customResourceRegistrar::addResourceDetails() at C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ResourceRegistrar.php:98)
+[stacktrace]
+#0 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\PendingResourceRegistration.php(221): Illuminate\\Routing\\ResourceRegistrar->register('test', 'App\\\\Http\\\\Contro...', Array)
+#1 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\PendingResourceRegistration.php(233): Illuminate\\Routing\\PendingResourceRegistration->register()
+#2 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Routing\\PendingResourceRegistration->__destruct()
+#3 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\outes\\web.php(20): Illuminate\\Support\\Facades\\Facade::__callStatic('resource', Array)
+#4 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require('C:\\\\Users\\\\Alinem...')
+#5 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(423): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\Alinem...')
+#6 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(380): Illuminate\\Routing\\Router->loadRoutes('C:\\\\Users\\\\Alinem...')
+#7 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'C:\\\\Users\\\\Alinem...')
+#8 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\Users\\\\Alinem...')
+#9 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#10 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#11 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#12 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#13 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#14 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#15 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#16 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#17 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#18 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#19 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#20 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#21 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(113): Illuminate\\Container\\Container->call(Object(Closure))
+#22 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(872): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#23 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(850): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#24 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 22)
+#25 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): array_walk(Array, Object(Closure))
+#26 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#27 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(230): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#28 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#29 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#30 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\server.php(21): require_once('C:\\\\Users\\\\Alinem...')
+#33 {main}
+"} 
+[2020-11-23 07:12:25] local.ERROR: Call to undefined method App\Routing\customResourceRegistrar::addResourceDetails() {"exception":"[object] (Error(code: 0): Call to undefined method App\\Routing\\customResourceRegistrar::addResourceDetails() at C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ResourceRegistrar.php:98)
+[stacktrace]
+#0 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\PendingResourceRegistration.php(221): Illuminate\\Routing\\ResourceRegistrar->register('test', 'App\\\\Http\\\\Contro...', Array)
+#1 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\PendingResourceRegistration.php(233): Illuminate\\Routing\\PendingResourceRegistration->register()
+#2 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Routing\\PendingResourceRegistration->__destruct()
+#3 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\outes\\web.php(20): Illuminate\\Support\\Facades\\Facade::__callStatic('resource', Array)
+#4 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require('C:\\\\Users\\\\Alinem...')
+#5 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(423): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\Alinem...')
+#6 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(380): Illuminate\\Routing\\Router->loadRoutes('C:\\\\Users\\\\Alinem...')
+#7 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'C:\\\\Users\\\\Alinem...')
+#8 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\Users\\\\Alinem...')
+#9 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#10 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#11 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#12 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#13 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#14 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#15 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#16 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#17 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#18 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#19 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#20 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#21 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(113): Illuminate\\Container\\Container->call(Object(Closure))
+#22 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(872): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#23 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(850): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#24 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 22)
+#25 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): array_walk(Array, Object(Closure))
+#26 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#27 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(230): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#28 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#29 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#30 C:\\Users\\Alinemone\\Desktop\\codeCup\esource\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 {main}
+"} 
